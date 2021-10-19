@@ -1,7 +1,7 @@
 # valid9
 ## An easier and clearer way to validate
 
-### Built for Vue but works as any validation that tests a condition and returns a string;
+### Built for Vue, but works for any validation method that tests a condition and returns a string;
 
 
 ```
