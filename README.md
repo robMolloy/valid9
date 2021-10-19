@@ -1,4 +1,4 @@
-# valid9
+# valid9, v2
 ## An easier and clearer way to validate
 
 ### Built for Vue, but works for any validation method that tests a condition and returns a string;
