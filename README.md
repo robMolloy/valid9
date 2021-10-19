@@ -30,7 +30,7 @@ In Vue template;
 ```
 
 
-# Valid9 comes with a set of default rules, you do not need to add your own.
+### Valid9 comes with a set of default rules - you do not need to add your own.
 
 ```
 import { initiateRules } from 'valid9';
@@ -39,7 +39,7 @@ const v9 = initiateRules();
 ```
 
 
-# Valid9 works with other libraries
+### Valid9 works with other libraries
 ```
 import { initiateRules } from 'valid9';
 import _ from 'lodash';
