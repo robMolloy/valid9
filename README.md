@@ -29,6 +29,7 @@ In Vue template;
 
 ```
 
+Valid9 comes with a set of default rules, you do not need to add your own.
 
 ```
 import { initiateRules } from 'valid9';
@@ -36,6 +37,6 @@ import { initiateRules } from 'valid9';
 const v9 = initiateRules();
 ```
 
-This comes with a set of default rules mainly pertaining to string len
+
 
 
