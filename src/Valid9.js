@@ -1,6 +1,6 @@
-import { defaultRuleSet } from './ruleSets/defaultRuleSet';
+const defaultRuleSet = require('./ruleSets/defaultRuleSet');
 
-export class Valid9 {
+class Valid9 {
   constructor(ruleSets = {}, incDefaultRuleSet = true) {
     const addRuleSet = incDefaultRuleSet ? defaultRuleSet : {};
     this.ruleSets = { ...ruleSets, ...addRuleSet };
@@ -22,3 +22,5 @@ export class Valid9 {
     });
   }
 }
+
+module.exports = Valid9;

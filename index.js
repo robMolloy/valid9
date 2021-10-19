@@ -1,7 +1,8 @@
-import { Valid9 } from './src/Valid9';
-import { initiateRules } from './src/initiateRules';
+const Valid9 = require('./src/Valid9');
+const initiateRules = require('./src/initiateRules');
 
-module.exports = {
-  Valid9,
-  initiateRules,
-};
+// var expt = {}
+// expt.Valid9 = Valid9;
+// expt.initiateRules = initiateRules;
+
+module.exports = { initiateRules, Valid9 };

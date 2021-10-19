@@ -1,6 +1,6 @@
-import _ from 'lodash';
+const _ = require('lodash').default;
 
-export const defaultRuleSet = {
+const defaultRuleSet = {
   minLength(val, param1) {
     const condition = val.length <= param1;
     const msg = `${val} must be at most ${param1} chars long`;
@@ -66,3 +66,5 @@ export const defaultRuleSet = {
     return { condition, msg };
   },
 };
+
+module.exports = defaultRuleSet;
