@@ -23,7 +23,7 @@ In Vue template;
 
 ```
 <q-input
-  :rules=[isEqualTo('someValue')]
+  :rules=[v9.isEqualTo('someValue')]
 />
 
 
