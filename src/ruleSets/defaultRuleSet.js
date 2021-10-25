@@ -2,7 +2,7 @@ const _ = require('lodash').default;
 
 const defaultRuleSet = {
   minLength(val, param1) {
-    const condition = val.length <= param1;
+    const condition = val.length >= param1;
     const msg = `${val} must be at most ${param1} chars long`;
 
     return { condition, msg };
