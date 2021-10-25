@@ -1,9 +1,8 @@
-const defaultRuleSet = require('./ruleSets/defaultRuleSet');
-
 class Valid9 {
-  constructor(ruleSets = {}, incDefaultRuleSet = true) {
-    const addRuleSet = incDefaultRuleSet ? defaultRuleSet : {};
-    this.ruleSets = { ...ruleSets, ...addRuleSet };
+  constructor(ruleSets) {
+    if (ruleSets === undefined) throw new Error('Valid 9 requires arguments');
+
+    this.ruleSets = ruleSets;
 
     this.createRules();
   }

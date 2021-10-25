@@ -1,8 +1,5 @@
 const Valid9 = require('./src/Valid9');
 const initiateRules = require('./src/initiateRules');
+const ruleSets = require('./src/ruleSets');
 
-// var expt = {}
-// expt.Valid9 = Valid9;
-// expt.initiateRules = initiateRules;
-
-module.exports = { initiateRules, Valid9 };
+module.exports = { initiateRules, Valid9, ruleSets };
